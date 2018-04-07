@@ -65,6 +65,37 @@ nav i{
 
 }
 
+.heart {
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  color: grey;
+  font-size: 0.7em;
+  text-align: center;
+
+}
+.heart:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+.heart:after {
+  background: white;
+  content: "\002665";
+  display: inline-block;
+  font-size: 1.7em;
+  position: relative;
+  top: -.6em;
+}
+
 .thumbnails:hover img{
   opacity: .6;
 }
