@@ -4,7 +4,9 @@ header,
 #intro{
   height: 100%;
 }
-
+nav{
+  background-color: pink;
+}
 nav i{
   text-align: center;
 }
