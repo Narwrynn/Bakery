@@ -1,0 +1,74 @@
+html,
+body,
+header,
+#intro{
+  height: 100%;
+}
+
+nav i{
+  text-align: center;
+}
+#intro{
+  background: url("img/cake.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 2px solid pink;
+}
+#intro h2,
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+}
+
+.text-white{
+  color:white;
+}
+.text-center{
+  text-align: center;
+}
+.intro-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#down-caret{
+  font-size: 64px;
+}
+#down-caret a {
+  color: white;
+}
+
+.row h3{
+  margin-top: 50px;
+  font-family: 'Cormorant Upright', serif;
+}
+
+#gallery img{
+  max-width: 100%;
+  display: block;
+  transition: all .2s ease-in-out;
+}
+
+.thumbnails{
+  margin-right: -15px;
+}
+.thumbnails a{
+  float: left;
+  width: 25%;
+  padding-right: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+
+}
+
+.thumbnails:hover img{
+  opacity: .6;
+}
+
+.thumbnails img:hover{
+  opacity: 1;
+  transform: scale(1) rotate(1deg);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .4);
+}

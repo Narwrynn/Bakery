@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Courtney's Cakes</title>
+        <!-- Custom font -->
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Dancing+Script" rel="stylesheet">
+        <!-- Style Sheets main and Bootstrap -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="lightbox.min.css"/>
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <!--Main Navigation -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <a class="navbar-brand" href="/">Courtney's Cakes</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home <i class="fas fa-home"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About <i class="fas fa-info-circle"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Gallery <i class="fas fa-images"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing <i class="fas fa-money-bill-alt"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact <i class="fas fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Main Navigation -->
+        <!-- Main Layout -->
+        <div id="intro" class="container-fluid text-white text-center">
+          <div class="full-bg-img">
+            <!-- Heading -->
+            <div class="intro-content">
+              <h2 class="display-3">Courtney's Cakes</h2>
+              <!--Description -->
+              <h4>Custom cakes, candies, & ice-cream</h4>
+              <div id="down-caret">
+                <a href="#about">
+                  <i class="fas fa-caret-down"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row text-center" id="about">
+          <div class="col-sm-12">
+            <h3>About</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center" id="gallery">
+          <div class="col-sm-12">
+            <h3>Gallery</h3>
+            <div class="thumbnails groups">
+              <a href="img/CircleCake.jpg" data-lightbox="gallery"><img src="img/CircleCake.jpg" /></a>
+              <a href="img/Cherry_cupcake.jpg" data-lightbox="gallery"><img src="img/Cherry_cupcake.jpg" /></a>
+              <a href="img/Choc_cupcake.jpg" data-lightbox="gallery"><img src="img/Choc_cupcake.jpg" /></a>
+              <a href="img/CrazyCake.jpg" data-lightbox="gallery"><img src="img/CrazyCake.jpg" /></a>
+              <a href="img/HappyBdayCake.jpg" data-lightbox="gallery"><img src="img/HappyBdayCake.jpg" /></a>
+              <a href="img/Pie.jpg" data-lightbox="gallery"><img src="img/Pie.jpg" /></a>
+              <a href="img/PinkFlowerWhite.jpg" data-lightbox="gallery"><img src="img/PinkFlowerWhite.jpg" /></a>
+              <a href="img/PurpleFlowerCake.jpg" data-lightbox="gallery"><img src="img/PurpleFlowerCake.jpg" /></a>
+          </div>
+          </div>
+        </div>
+        <div class="row text-center" id="pricing">
+          <div class="col-sm-12">
+            <h3>Pricing</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center" id="contact">
+          <div class="col-sm-12">
+            <h3>Contact</h3>
+              <form action="https://formspree.io/rigellashley@gmail.com" method="POST">
+                <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name" class="form-control" placeholder="Your Name" />
+                <label>Email address</label>
+                <input type="email" name="_replyto"  class="form-control" placeholder="yourmail@example.com" />
+                <label>Your Message</label>
+                <textarea name="message" class="form-control" placeholder="Your message"></textarea>
+                <input type="hidden" name="_next" value="#gallery" />
+                <input type="hidden" name="_subject" value="New submission!" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <br />
+                <input type="submit" value="Send" class="btn btn-primary">
+              </div>
+              </form>
+
+              <p>
+                My Email: C_S_Sellers@yahoo.com
+              </p>
+              <p>
+                My Phone: 555-1234
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- Main Layout -->
+      <!-- Footer -->
+      <!-- Footer -->
+
+      <!-- Scripts -->
+      <!-- Lightbox + jquery -->
+      <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+      <!--PopperJS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <!--Bootstrap Core -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- Core JS -->
+      <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
