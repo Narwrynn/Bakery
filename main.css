@@ -105,3 +105,8 @@ nav i{
   transform: scale(1) rotate(1deg);
   box-shadow: 0 0 7px rgba(0, 0, 0, .4);
 }
+
+#contact{
+  max-width: 500px;
+  margin: 0 auto;
+}
